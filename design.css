@@ -1,0 +1,79 @@
+﻿body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+    color: black;
+}
+
+th {
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    font-style: italic;
+}
+
+th{
+    width: 10%;
+}
+
+#column1{
+    width: 15%;
+}
+
+#section {
+    font-weight: bold;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+/* Set border for the entire table */
+table.border {
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+/* Specific styling for each course */
+td.ITEP206 {
+    background-color: #2E86AB;
+}
+
+td.GEC108 {
+    background-color: #F7CAC9;
+}
+
+td.PE4 {
+    background-color: #ABD1C6;
+}
+
+td.ITEP204 {
+    background-color: #F7786B;
+}
+
+td.ITEP205 {
+    background-color: #6A0572;
+}
+
+td.ITEL203 {
+    background-color: #FFC300;
+}
+
+td.ITEP207 {
+    background-color: #00A86B;
+}
+
+/* @ media for print mode */
+@media print {
+    img {
+        filter: grayscale(100%);
+    }
+}
